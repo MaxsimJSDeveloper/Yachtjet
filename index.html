@@ -17,7 +17,7 @@
     <link rel="icon" type="image/svg+xml" href="/tandem-of-developers/favicon.svg" />
     
     <script type="module" crossorigin src="/tandem-of-developers/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/tandem-of-developers/assets/index-30f6850f.css">
+    <link rel="stylesheet" href="/tandem-of-developers/assets/index-44d13084.css">
   </head>
   <body>
     <header class="header"></header>
@@ -31,7 +31,74 @@
 
       <section class="advantages"></section>
 
-      <section class="rent-a-yacht"></section>
+      <section class="rent-a-yacht">
+  <div class="container">
+    <h2 class="rent-a-yacht-title">Rent a yacht now</h2>
+    <form class="rent-a-yacht-form">
+      <label class="rent-a-yacht-form-label" for="user-name"
+        ><input
+          class="rent-a-yacht-form-input"
+          id="user-name"
+          name="user-name"
+          placeholder="Full Name"
+          type="text"
+          pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+          required
+      /></label>
+      <label class="rent-a-yacht-form-label" for="user-email"
+        ><input
+          class="rent-a-yacht-form-input"
+          id="user-email"
+          name="user-email"
+          placeholder="Email"
+          type="email"
+          required
+      /></label>
+      <label class="rent-a-yacht-form-label" for="user-phone"
+        ><input
+          class="rent-a-yacht-form-input"
+          id="user-phone"
+          name="user-phone"
+          placeholder="Phone number"
+          type="tel"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+          title="xxx-xxx-xx-xx"
+          required
+      /></label>
+      <label for="user-comment"></label>
+      <textarea
+        class="rent-a-yacht-form-textarea"
+        name="user-comment"
+        id="user-comment"
+        placeholder="Comment"
+      ></textarea>
+      <button class="rent-a-yacht-form-btn" type="submit">Send</button>
+    </form>
+    <picture>
+      <source
+        srcset="/tandem-of-developers/assets/1440-rent-a-yacht-4f5cbcff.jpg 1x, /tandem-of-developers/assets/1440-rent-a-yacht-4f5cbcff.jpg 2x"
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="/tandem-of-developers/assets/1280-rent-a-yacht-b0299832.jpg 1x, /tandem-of-developers/assets/1280-rent-a-yacht@2x-b9915c03.jpg 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="/tandem-of-developers/assets/tablet-rent-a-yacht-ea79f956.jpg 1x, /tandem-of-developers/assets/tablet-rent-a-yacht@2x-e485b06e.jpg 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/tandem-of-developers/assets/mobile-rent-a-yacht-d6e7ab1d.jpg 1x, /tandem-of-developers/assets/mobile-rent-a-yacht@2x-50766529.jpg "
+        media="(max-width: 767px)"
+      />
+      <img
+        class="rent-a-yacht-picture"
+        src="/tandem-of-developers/assets/mobile-rent-a-yacht-d6e7ab1d.jpg"
+        alt="Yacht in the ocean"
+      />
+    </picture>
+  </div>
+</section>
 
       <section class="reviews"></section>
 
