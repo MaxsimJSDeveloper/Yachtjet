@@ -1,0 +1,140 @@
+@media screen and (max-width: 767px) {
+
+
+  .modal-window{
+  
+ 
+    display: flex;
+  overflow: scroll;   
+  }
+  .modal-window.is-open {
+    transform: translateX(0%);
+  }
+
+
+  .modal-window {
+    
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    width: 100%;
+    height: 100%;
+    background: #0E1823;
+    transform: translateX(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+  }
+
+  .modal-container {
+    position: relative;
+  }
+
+  .modal-container {
+    width: 375px;
+    height: 812px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+
+  .modal-menu-logo {
+    display: flex;
+    width: 335px;
+    height: 42px;
+    border-radius: 8px;
+    border: 1px solid #FBFBFB;
+    background: #FBFBFB;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+  }
+
+  .menu-logo {
+    color: #1B414B;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.42px;
+    margin-left: 20px;
+  }
+
+  .modal-menu-close-btn {
+    position: absolute;
+    top: 23px;
+    right: 40px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+
+
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /*--nav*/
+
+  .modal-menu-navigation {
+    display: flex;
+    margin-top: 201px;
+  }
+
+  .modal-menu-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .modal-menu-item {
+    display: flex;
+    width: 91px;
+    height: 40px;
+    border-radius: 8px;
+    background: #1B414B;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal-menu-link {
+    color: #FBFBFB;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 11.7px */
+    text-transform: uppercase;
+  }
+
+  /*social*/
+
+  .modal-menu-social-group {
+    margin-top: 361px;
+    display: flex;
+  }
+
+  .modal-menu-social-list {
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .modal-sociale-list-icon{fill: #FBFBFB;}
+}
