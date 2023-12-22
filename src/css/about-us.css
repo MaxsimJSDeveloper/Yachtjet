@@ -27,6 +27,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    max-width: 295px;
 }
 
 .about-us-text {
@@ -37,7 +38,7 @@
     font-weight: 400;
     line-height: 1;
     letter-spacing: -0.02em;
-    max-width: 295px;
+    /* max-width: 295px; */
 }
 
 .about-us-sub-text {
@@ -48,7 +49,7 @@
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: -0.02em;
-    max-width: 295px;
+    /* max-width: 295px; */
     opacity: 0.4;
 }
 
@@ -75,16 +76,17 @@
 
     .about-us-text-wrap {
         margin-left: 32px;
+        max-width: 389px;
     }
 
     .about-us-text {
         font-size: 23px;
-        max-width: 389px;
+        /* max-width: 389px; */
     }
 
     .about-us-sub-text {
         font-size: 13px;
-        max-width: 389px;
+        /* max-width: 389px; */
     }
 }
 
@@ -104,4 +106,17 @@
         margin-left: 0;
         margin-right: 50px;
     }
+}
+
+@media  screen and (min-width:1400px) {
+    .about-us-text-wrap{
+        max-width: 404px;
+    }
+    .about-us-text{
+        /* max-width: 404px; */
+    }
+    .about-us-sub-text{
+        /* max-width: 404px; */
+    }
+    
 }
