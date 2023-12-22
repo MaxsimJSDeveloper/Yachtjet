@@ -2,12 +2,19 @@
     display: flex;    
 }
 .header {
-    max-width: 375px;
-    position: sticky;
+    
+    max-width: 335px;
+    position: fixed;
     top: 0;
+    left: 20px;
+    right: 20px;
+    width: 100%;
     z-index: 99999;
-    margin-right: auto;
-    margin-left: auto;
+   margin-top: 20px;
+   margin-left: auto;
+   margin-right: auto;
+
+    
 }
 
 .container-header {
@@ -19,15 +26,14 @@
     border-radius: 8px;
     border: 1px solid #FBFBFB;
     background-color: #FBFBFB;
-    margin-right: auto;
-    margin-bottom: auto;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 767px) {
 .container-header {
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 20px;
+    
 }
 .menu-links-header {
     display: none; 
@@ -113,7 +119,7 @@
     align-items: center;
     padding-left: 28px;
     padding-right: 28px; 
-    margin-top: 32px;     
+         
 }
 
 .burger-menu {
@@ -121,6 +127,7 @@
 }
 .header {
     max-width: 704px;
+    margin-top: 32px;
 }
 .navigation-header {
     display: flex;
