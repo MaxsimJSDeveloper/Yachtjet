@@ -123,6 +123,10 @@
 }
 
 @media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
   .our-yachts-title {
     font-size: 48px;
     letter-spacing: -0.96px;
@@ -178,6 +182,10 @@
   }
 }
 @media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+
   .our-yachts-title {
     width: 714px;
   }
@@ -198,6 +206,10 @@
   }
 }
 @media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+
   .our-yachts-list {
     gap: 31.5px;
   }
