@@ -1,0 +1,128 @@
+/* section About-us */
+.about-us {
+    padding-bottom: 40px;
+}
+.about-us-wrap {
+    padding-top: 40px;
+    border-radius: 24px;
+    background-color: #FBFBFB;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.about-us-wrap-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    max-width: 295px;
+    align-items: center;
+}
+.about-us-title {
+    color: #1B414B;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+
+.about-us-text-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-us-text {
+    color: #1B414B;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+
+.about-us-sub-text {
+    color: #040306;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    opacity: 0.4;
+}
+
+
+@media screen and (min-width:768px) {
+    .about-us {
+        padding-bottom: 75px;
+    }
+    .about-us-container {
+        max-width: 100%;
+    }
+
+    .about-us-wrap {
+        padding-top: 50px;
+        row-gap: 50px;
+        align-items: start;
+    }
+    .about-us-wrap-content{
+        max-width: 100%;
+        width: 536px;
+        align-items: flex-start;
+        margin-left: 32px;
+    }
+
+    .about-us-title {
+        font-size: 48px;
+    }
+
+    .about-us-text-wrap {
+        width: 389px;
+    }
+
+    .about-us-text {
+        font-size: 23px;
+    }
+
+    .about-us-sub-text {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .about-us-wrap {
+        gap: 100px;
+        justify-content: center;
+    }
+
+    .about-us-wrap-content{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1080px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+    .about-us-title {
+        width: 537px;
+    }
+
+    .about-us-text-wrap {
+        width: 354px;
+    }
+    .about-us-sub-text {
+        line-height: 1.15;
+    }
+}
+
+@media  screen and (min-width:1400px) {
+    .about-us-text-wrap{
+        width: 404px;
+    }
+    
+}

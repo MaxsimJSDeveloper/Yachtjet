@@ -6,7 +6,8 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 p:last-child {
@@ -15,8 +16,9 @@ p:last-child {
 
 ul,
 ol {
-  margin: 0;
-  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style: none;
 }
 
@@ -24,18 +26,12 @@ a {
   text-decoration: none;
 }
 
-button {
-  cursor: pointer;
+nav {
+  padding: 0;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-.container {
-  max-width: 320px;
-  margin: 0 auto;
-  padding: 0 15px;
 }

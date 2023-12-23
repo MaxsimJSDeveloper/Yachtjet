@@ -1,1 +1,83 @@
-<section class="rent-a-yacht"></section>
+<section class="rent-a-yacht" id="rent-a-yacht">
+  <div class="container rent-a-yacht-wrapper">
+    <div class="rent-a-yacht-form-container">
+      <h2 class="rent-a-yacht-title">Rent a yacht now</h2>
+      <div class="rent-a-yacht-form-container"></div>
+      <form class="rent-a-yacht-form">
+        <label class="rent-a-yacht-form-label" for="user-name"
+          ><input
+            class="rent-a-yacht-form-input"
+            id="user-name"
+            name="user-name"
+            placeholder="Full Name"
+            type="text"
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+            required
+        /></label>
+        <label class="rent-a-yacht-form-label" for="user-email"
+          ><input
+            class="rent-a-yacht-form-input"
+            id="user-email"
+            name="user-email"
+            placeholder="Email"
+            type="email"
+            required
+        /></label>
+        <label class="rent-a-yacht-form-label" for="user-phone"
+          ><input
+            class="rent-a-yacht-form-input"
+            id="user-phone"
+            name="user-phone"
+            placeholder="Phone number"
+            type="tel"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            title="xxx-xxx-xx-xx"
+            required
+        /></label>
+        <label for="user-comment"></label>
+        <textarea
+          class="rent-a-yacht-form-textarea"
+          name="user-comment"
+          id="user-comment"
+          placeholder="Comment"
+        ></textarea>
+        <button class="rent-a-yacht-form-btn" type="submit">Send</button>
+      </form>
+    </div>
+    <picture>
+      <source
+        srcset="
+          ./img/decktop-1440/1440-rent-a-yacht.jpg    1x,
+          ./img/decktop-1440/1440-rent-a-yacht@2x.jpg 2x
+        "
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="
+          ./img/decktop-1280/1280-rent-a-yacht.jpg    1x,
+          ./img/decktop-1280/1280-rent-a-yacht@2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./img/tablet/tablet-rent-a-yacht.jpg    1x,
+          ./img/tablet/tablet-rent-a-yacht@2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./img/mobile/mobile-rent-a-yacht.jpg    1x,
+          ./img/mobile/mobile-rent-a-yacht@2x.jpg
+        "
+        media="(max-width: 767px)"
+      />
+      <img
+        class="rent-a-yacht-picture"
+        src="./img/mobile/mobile-rent-a-yacht.jpg"
+        alt="Yacht in the ocean"
+      />
+    </picture>
+  </div>
+</section>
