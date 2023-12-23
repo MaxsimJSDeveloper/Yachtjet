@@ -1,0 +1,124 @@
+.container-adventuges {
+  padding-bottom: 80px;
+}
+.adventuges-description {
+  border-radius: 24px;
+  background: #1b414b;
+  display: flex;
+  max-width: 335px;
+  max-height: 642px;
+  padding: 80px 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.adventuges-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.adventuges-description-number {
+  color: #fbfbfb;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  position: relative;
+  margin-bottom: 38px;
+}
+.adventuges-description-number:after {
+  display: block;
+  width: 295px;
+  height: 2px;
+  border-radius: 18px;
+  background: rgba(251, 251, 251, 0.1);
+  color: #fbfbfb1a;
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -18px;
+}
+.adventuges-description-text {
+  color: #fbfbfb;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+}
+
+.adventuges-img {
+  width: 335px;
+  height: 424px;
+  border-radius: 24px;
+}
+/* ============== TABLET ADVENTUGES STYLES ============== */
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .container-adventuges {
+    padding-bottom: 150px;
+  }
+
+  .adventuges-description {
+    max-width: 704px;
+    max-height: 424px;
+    padding: 90px 32px;
+    margin-bottom: 32px;
+  }
+  .adventuges-description-text {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .adventuges-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 44px;
+  }
+  .adventuges-list-item {
+    width: calc((100% - 44px) / 2);
+  }
+  .adventuges-img {
+    width: 704px;
+  }
+}
+/* ============== /DESKTOP  1280 STYLES ============== */
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .container-adventuges {
+    display: flex;
+    gap: 32px;
+  }
+  .adventuges-description {
+    display: flex;
+    max-width: 716px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+  }
+  .adventuges-img {
+    width: 432px;
+  }
+}
+/* ============== /DESKTOP  1280 STYLES ============== */
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+  .adventuges-description {
+    max-width: 768px;
+  }
+  .adventuges-img {
+    width: 540px;
+  }
+}
