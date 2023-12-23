@@ -134,7 +134,7 @@
     align-items: center;
   }
   .items-links-header:hover,
-  .items-links-header:focus {
+  .items-links-header:focus, .items-links-header:active {
     background-color: #1b414b;
   }
   .icon-social:hover,
