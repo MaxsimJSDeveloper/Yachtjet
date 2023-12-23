@@ -23,11 +23,12 @@ color: #FBFBFB;
         border: 1px solid rgba(251, 251, 251, 0.20);
         background-color: transparent;
         outline: 0px solid transparent;
-
+transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .rent-a-yacht-form-input:focus{
 border: 1px solid rgba(251, 251, 251, 0.50);
 }
+
 .rent-a-yacht-form-input::placeholder{
 color: rgba(251, 251, 251, 0.40);
 }
@@ -45,6 +46,7 @@ color: rgba(251, 251, 251, 0.40);
         background-color: transparent;
             outline: 0px solid transparent;
             resize: none;
+            transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .rent-a-yacht-form-textarea:focus{
 border: 1px solid rgba(251, 251, 251, 0.50);
@@ -66,10 +68,13 @@ color: rgba(251, 251, 251, 0.40);
         border: none;
         margin-bottom: 80px;
 }
-.rent-a-yacht-form-btn:hover,
+
 .rent-a-yacht-form-btn:focus {
     background-color: #FBFBFB;
     color: #1B414B;
+}
+.rent-a-yacht-form-btn {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .rent-a-yacht-picture{
     border-radius: 24px;}
@@ -134,15 +139,12 @@ margin-bottom: 50px;
         .rent-a-yacht-form-container{
             margin-left: 50px;
         }
-        .rent-a-yacht-form-input{
-        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
-        .rent-a-yacht-form-textarea{
-        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
-        .rent-a-yacht-form-btn{
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
+        .rent-a-yacht-form-btn:hover
+         {
+            background-color: #FBFBFB;
+            color: #1B414B;
+                }
+        
 }
 
 @media screen and (min-width: 1440px) {
