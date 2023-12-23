@@ -26,7 +26,8 @@
     padding-left: 15px;
     padding-right: 15px;
 
-    position: relative;
+    
+
   }
 
   .container{max-width: 335px;
@@ -38,7 +39,7 @@
 
   .modal-menu-logo {
 
-
+position: relative;
 
     display: flex;
     max-width: 100%;
@@ -68,7 +69,7 @@
   .modal-menu-close-btn {
     position: absolute;
     /*top: 23px;*/
-    right: 40px;
+    right: 20px;
     background-color: transparent;
     border: none;
     padding: 0;
