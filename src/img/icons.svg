@@ -16,5 +16,12 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="8" d="M4.8 27.2H72M4.8 4.8H72"
                 stroke="#1B414B" />
         </symbol>
+
+
+        <symbol id="icon-icon_close" viewBox="0 0 32 32">
+            <path fill="#055545" style="fill: var(--color1, #055545)"
+                d="M25.143 8.983l-2.126-2.126-7.016 7.016-7.016-7.016-2.126 2.126 7.016 7.017-7.016 7.016 2.126 2.126 7.017-7.016 7.016 7.016 2.126-2.126-7.016-7.016 7.016-7.017z">
+            </path>
+        </symbol>
     </defs>
 </svg>
