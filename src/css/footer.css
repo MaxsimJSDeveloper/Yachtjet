@@ -145,7 +145,7 @@ letter-spacing: 0.36px;
     gap: 8px; 
 }
 
-.icon-social {
+.icon-social-footer {
     fill: #FBFBFB;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -183,7 +183,7 @@ letter-spacing: 0.36px;
     background-color: #FBFBFB;
 }
 
-.icon-social:hover, .icon-social:focus {
+.icon-social-footer:hover, .icon-social-footer:focus {
     fill: #FBFBFBCC;
 }
 .footer-privacy-p{
