@@ -1,4 +1,4 @@
-.container {
+.container-adventuges {
   padding-bottom: 80px;
 }
 .adventuges-description {
@@ -59,7 +59,9 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 32px;
+    padding: 0 32px;
+  }
+  .container-adventuges {
     padding-bottom: 150px;
   }
 
