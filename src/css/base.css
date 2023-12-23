@@ -34,20 +34,20 @@ button {
   padding: 75px 0;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .container {
-    width: 720px;
+    max-width: 720px;
   }
 }
 
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
   .container {
-    width: 1180px;
+    max-width: 1180px;
   }
 }
 
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .container {
-    width: 1340px;
+    max-width: 1340px;
   }
 }
