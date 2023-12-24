@@ -107,6 +107,7 @@ letter-spacing: -0.03em;
     line-height: 18px; 
     letter-spacing: -0.36px;
     margin-bottom: 82px;
+    max-width: 279px;
 }
 .footer-privacy {
     color: rgba(251, 251, 251, 0.40);
@@ -155,6 +156,7 @@ justify-content: center;
     line-height: 32px; 
     letter-spacing: -0.64px;
     margin-bottom: 99px;
+    max-width: 640px;
 }
 .footer-privacy{
     font-size: 14px;
@@ -200,6 +202,11 @@ justify-content: center;
     .menu-social-footer{
         margin-right: 75px;
     }
+    .footer-slogan-text{
+        max-width: 693px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
 }
 
@@ -213,5 +220,8 @@ justify-content: center;
     .menu-links-footer{
         margin-right: 388px;
         margin-left: 409px;
+    }
+    .footer-slogan-text{
+        max-width: 699px;
     }
 }
