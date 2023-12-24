@@ -7,7 +7,7 @@
   
   }
   .modal-window {
-    overflow-y: auto;
+    overflow: scroll;
 
     position: fixed;
     top: 0;
