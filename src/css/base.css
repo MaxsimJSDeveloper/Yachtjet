@@ -32,8 +32,8 @@ button {
 }
 
 .section-indentation {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -41,6 +41,11 @@ button {
     max-width: 768px;
     padding-right: 32px;
     padding-left: 32px;
+  }
+
+  .section-indentation {
+    padding-top: 75px;
+    padding-bottom: 75px;
   }
 }
 @media screen and (min-width: 1280px) {
