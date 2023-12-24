@@ -169,6 +169,10 @@ justify-content: center;
     margin-right: 106px;
     margin-left: 106px;
 }
+.div-container-social {
+    width: 88px;
+    height: 24px;
+}
 }
 
 /* ============================ 1280px ============================ */
@@ -176,11 +180,20 @@ justify-content: center;
 @media screen and (min-width: 1280px) {
     .footer-container{
         max-width: 1230px;
+        padding-top: 50px;
     }
     .menu-links-footer{
         margin-right: 311px;
         margin-left: 326px;
     }
+    .footer-logo{
+        margin-left: 75px;
+    }
+    
+    .menu-social-footer{
+        margin-right: 75px;
+    }
+    
 }
 
 /* ============================ 1440px ============================ */
@@ -188,6 +201,7 @@ justify-content: center;
 @media screen and (min-width: 1440px) {
     .footer-container{
         max-width: 1390px;
+        padding-top: 50px;
     }
     .menu-links-footer{
         margin-right: 388px;
