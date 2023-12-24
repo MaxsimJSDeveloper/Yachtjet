@@ -82,10 +82,6 @@
 
 /* TABLET RENT A YACHT STYLES */
 @media screen and (min-width: 768px) {
-  .rent-a-yacht {
-    padding-bottom: 150px;
-  }
-
   .rent-a-yacht-title {
     font-size: 48px;
     margin-bottom: 50px;
