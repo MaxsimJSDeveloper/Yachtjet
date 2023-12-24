@@ -57,14 +57,6 @@
 /* ============== TABLET ADVENTUGES STYLES ============== */
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-  .container-adventuges {
-    padding-bottom: 150px;
-  }
-
   .adventuges-description {
     max-width: 704px;
     max-height: 424px;
@@ -90,11 +82,6 @@
 }
 /* ============== /DESKTOP  1280 STYLES ============== */
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
   .container-adventuges {
     display: flex;
     gap: 32px;
@@ -112,9 +99,6 @@
 }
 /* ============== /DESKTOP  1280 STYLES ============== */
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
   .adventuges-description {
     max-width: 768px;
   }
