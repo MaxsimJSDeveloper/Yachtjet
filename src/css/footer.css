@@ -179,8 +179,8 @@ justify-content: center;
     margin-left: 106px;
 }
 .div-container-social {
-    width: 88px;
-    height: 24px;
+   /* width: 88px;
+    height: 24px;*/
 }
 }
 
@@ -189,14 +189,13 @@ justify-content: center;
 @media screen and (min-width: 1280px) {
     .footer-container{
         max-width: 1230px;
-        padding-top: 50px;
+        padding: 50px 75px 20px 75px;
     }
     .menu-links-footer{
         margin-right: 311px;
         margin-left: 326px;
     }
     .footer-logo{
-        margin-left: 75px;
     }
     
     .menu-social-footer{
@@ -215,7 +214,6 @@ justify-content: center;
 @media screen and (min-width: 1440px) {
     .footer-container{
         max-width: 1390px;
-        padding-top: 50px;
     }
     .menu-links-footer{
         margin-right: 388px;
