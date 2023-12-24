@@ -155,3 +155,8 @@
     fill: #fbfbfb;
   }
 }
+
+@media screen and (min-width: 768px){
+  .modal-window{ display: none;}
+  
+}
