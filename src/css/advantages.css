@@ -57,10 +57,6 @@
 /* ============== TABLET ADVENTUGES STYLES ============== */
 
 @media screen and (min-width: 768px) {
-  .container-adventuges {
-    padding-bottom: 150px;
-  }
-
   .adventuges-description {
     max-width: 704px;
     max-height: 424px;
