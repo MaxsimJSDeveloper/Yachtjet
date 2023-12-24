@@ -10,7 +10,8 @@ body {
 .container {
   max-width: 375px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 button {
@@ -31,17 +32,27 @@ button {
 }
 
 .section-indentation {
-  padding: 75px 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .section-indentation {
+    padding-top: 75px;
+    padding-bottom: 75px;
   }
 }
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 @media screen and (min-width: 1440px) {
