@@ -10,6 +10,7 @@
     flex-direction: column;
     gap: 40px;
     align-items: center;
+    margin-top: -60px;
 }
 
 .about-us-wrap-content {
@@ -69,6 +70,7 @@
         padding-top: 50px;
         row-gap: 50px;
         align-items: start;
+        margin-top: -67px;
     }
     .about-us-wrap-content{
         max-width: 100%;
@@ -98,6 +100,7 @@
     .about-us-wrap {
         gap: 100px;
         justify-content: center;
+        margin-top: -35px;
     }
 
     .about-us-wrap-content{
