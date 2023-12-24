@@ -3,9 +3,8 @@
 }
 
 .footer {
-    
-    max-width: 1390px;
-    position: fixed;
+    /*max-width: 1390px;
+    position: fixed;*/
     left: 25px;
     right: 25px;
     width: 100%;
@@ -49,8 +48,10 @@
     width: 355px;
     height: 412px;
     flex-shrink: 0;
+    flex-wrap: wrap;
+    max-width: 375px;
 }
-}
+
 
 .footer-logo {
     color: #FBFBFB;
@@ -90,7 +91,7 @@ font-weight: 400;
 line-height: 14px; /* 116.667% */
 letter-spacing: 0.36px;
 }
-
+}
 /* ============================ 768px ============================ */
 
 @media screen and (min-width: 768px) {
