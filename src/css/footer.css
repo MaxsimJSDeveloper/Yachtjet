@@ -1,9 +1,12 @@
 .footer {
     z-index: 99999999;
     margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .footer-container {
 
     justify-content: space-between;
@@ -23,6 +26,7 @@
 
 .logo {
 }
+
 .footer-logo {
     color: #FBFBFB;
 font-family: Inter;
@@ -48,6 +52,8 @@ letter-spacing: -0.03em;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer; 
 }
 
 .links-footer {
@@ -100,7 +106,7 @@ flex-shrink: 0;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px; /* 18px */
+    line-height: 18px; 
     letter-spacing: -0.36px;
     margin-bottom: 82px;
 }
@@ -119,5 +125,72 @@ justify-content: center;
 
 }
 .footer-privacy-p {
-   
+}
+
+/* ============================ 768px ============================ */
+@media screen and (min-width: 768px) {
+    .footer-logo {
+    font-size: 20px;
+    letter-spacing: -0.6px;
+}
+
+.footer-container{
+    max-width: 736px;
+}
+
+.items-links-footer {
+    width: 91px;
+    height: 40px;
+}
+
+.footer-slogan-text{
+    font-size: 32px;
+    line-height: 32px; 
+    letter-spacing: -0.64px;
+    margin-bottom: 99px;
+}
+.footer-privacy{
+    font-size: 14px;
+    line-height: 16.52px; 
+    letter-spacing: 0.42px;
+    gap: 32px;
+}
+.navigation-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.menu-links-footer{
+    justify-content: center;
+    margin-right: 106px;
+    margin-left: 106px;
+}
+}
+
+/* ============================ 1280px ============================ */
+
+@media screen and (min-width: 1280px) {
+    .footer-container{
+        max-width: 1230px;
+    }
+    .menu-links-footer{
+        margin-right: 311px;
+        margin-left: 326px;
+    }
+}
+
+/* ============================ 1440px ============================ */
+
+@media screen and (min-width: 1440px) {
+    .footer-container{
+        max-width: 1390px;
+    }
+    .menu-links-footer{
+        margin-right: 388px;
+        margin-left: 409px;
+    }
 }
