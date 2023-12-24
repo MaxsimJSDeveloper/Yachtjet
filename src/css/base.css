@@ -37,7 +37,7 @@ button {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 75px 32px;
+    padding: 0 32px;
   }
 }
 @media screen and (min-width: 1280px) {
