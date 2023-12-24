@@ -42,6 +42,7 @@ letter-spacing: -0.03em;
    justify-content: center;
 }
 .items-links-footer {
+    color: #FBFBFB;
     width: 66px;
     height: 40px;
     flex-shrink: 0;
@@ -57,7 +58,7 @@ letter-spacing: -0.03em;
 }
 
 .links-footer {
-    color: #FBFBFB;
+    color: inherit;
 text-align: center;
 font-family: Inter;
 font-size: 9px;
@@ -125,6 +126,15 @@ justify-content: center;
 
 }
 .footer-privacy-p {
+}
+
+.items-links-footer:hover, .items-links-footer:focus  {
+    background-color: #FBFBFB;
+    color: #1B414B;
+}
+
+.icon-social-footer:hover, .icon-social-footer:focus {
+    fill: #FBFBFBCC;
 }
 
 /* ============================ 768px ============================ */
