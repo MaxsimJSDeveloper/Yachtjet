@@ -1,6 +1,5 @@
 /* section About-us */
 .about-us {
-    padding-bottom: 40px;
 }
 .about-us-wrap {
     padding-top: 40px;
@@ -11,6 +10,9 @@
     gap: 40px;
     align-items: center;
     margin-top: -60px;
+    height: 675px;
+    padding-bottom: 335px;
+    position: relative;
 }
 
 .about-us-wrap-content {
@@ -56,11 +58,19 @@
     letter-spacing: -0.02em;
     opacity: 0.4;
 }
+.about-us-picture{
+    position: absolute;
+    top: 380px;
+    left: 0;
+}
 
+.about-us-container{
+    padding-bottom: 105px;
+}
 
 @media screen and (min-width:768px) {
     .about-us {
-        padding-bottom: 75px;
+        padding-bottom: 276px;
     }
 
     .about-us-wrap {
@@ -68,12 +78,13 @@
         row-gap: 50px;
         align-items: start;
         margin-top: -67px;
+        padding-left: 32px ;
+        padding-right: 136px;
     }
     .about-us-wrap-content{
         max-width: 100%;
         width: 536px;
         align-items: flex-start;
-        margin-left: 32px;
     }
 
     .about-us-title {
@@ -92,24 +103,36 @@
         font-size: 13px;
     }
     .about-us-img {
-        margin-left: auto;
-        margin-right: auto;
+     /*   margin-left: auto;
+        margin-right: auto;*/
+    }
+
+    .about-us-picture{
+        width: 704px;
+        top: 481px;
+        
     }
 }
 
 @media screen and (min-width:1280px) {
+
+    .about-us{
+        padding-bottom: 155px;
+    }
+
     .about-us-wrap {
-        gap: 100px;
+       padding-left: 50px;
+       padding-right: 50px;
         justify-content: center;
         margin-top: -35px;
+        padding-top: 0;
     }
 
     .about-us-wrap-content{
         flex-direction: row;
         justify-content: space-between;
         width: 1080px;
-        margin-left: auto;
-        margin-right: auto;
+        gap: 189px;
     }
    
     .about-us-title {
@@ -125,11 +148,36 @@
     .about-us-img {
         border-radius: 24px;
     }
+
+    .about-us-picture{
+        top: 360px;
+        width: 1180px;
+        
+    }
 }
 
-@media  screen and (min-width:1400px) {
+@media  screen and (min-width:1440px) {
     .about-us-text-wrap{
         width: 404px;
     }
-    
+
+    .about-us-wrap {
+        justify-content: center;
+        margin-top: -35px;
+        padding-top: 0;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .about-us-wrap-content{
+        gap: 299px;
+        width: 1340px;
+    }
+
+
+    .about-us-picture{
+        top: 337px;
+    }
+
+
 }
