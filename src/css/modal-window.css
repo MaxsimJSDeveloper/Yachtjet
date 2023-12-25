@@ -1,52 +1,31 @@
-
 @media screen and (max-width: 767px) {
- 
-
-
   .modal-window {
-    
-
     position: fixed;
     top: 0;
-    /*left: 0;*/
-left: 0;
+    left: 0;
     z-index: 9999999;
     width: 100%;
     min-height: 100%;
     background: #0e1823;
     transform: translateX(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-
-
-    
-    
-      padding: 16px 20px 40px;
-
-   
-
+    padding: 16px 20px 40px;
   }
 
-     .is-open {
-       transform: translateX(0);
-  
-       opacity: 1;
-       visibility: visible;
-  pointer-events:auto;
-     }
-
-  
-
+  .is-open {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
 
   .modal-menu-logo {
     position: relative;
-max-width: 335px;
+    max-width: 335px;
     display: flex;
-    
     height: 42px;
     border-radius: 8px;
     border: 1px solid #fbfbfb;
@@ -54,7 +33,6 @@ max-width: 335px;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    /*margin-top: 16px;*/
     flex-shrink: 0;
   }
 
@@ -71,8 +49,6 @@ max-width: 335px;
 
   .modal-menu-close-btn {
     position: absolute;
-    /*top: 23px;*/
-    
     right: 20px;
     background-color: transparent;
     border: none;
@@ -90,9 +66,6 @@ max-width: 335px;
   .modal-menu-navigation {
     display: flex;
     margin-top: 201px;
-
-
-    /*margin-bottom: 361px;*/
   }
 
   .modal-menu-list {
@@ -101,9 +74,6 @@ max-width: 335px;
     row-gap: 4px;
     margin-left: auto;
     margin-right: auto;
-
-
-
   }
 
   .modal-menu-item {
@@ -111,17 +81,16 @@ max-width: 335px;
     width: 91px;
     height: 40px;
     border-radius: 8px;
-
     align-items: center;
     justify-content: center;
     background: #1b414b80;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .modal-menu-item:focus,
   .modal-menu-item:hover {
-    background-color: #1b414b;}
+    background-color: #1b414b;
+  }
 
   .modal-menu-link {
     color: #fbfbfb;
@@ -131,30 +100,22 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-style: normal;
     font-weight: 400;
     line-height: 130%;
-    /* 11.7px */
     text-transform: uppercase;
-
     padding: 10px 20px;
-
   }
 
   /*social*/
   .modal-menu-social-group {
-    /*margin-top: 361px;*/
     display: flex;
-
-
-position: fixed;
-left: 50%;
-right: 50%;
-bottom: 40px;
-
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    bottom: 40px;
   }
 
   .modal-menu-social-list {
     display: flex;
     gap: 8px;
-    
     transform: translateX(-50%);
   }
 
@@ -164,9 +125,12 @@ bottom: 40px;
 }
 
 .modal-sociale-list-icon:focus,
-.modal-sociale-list-icon:hover{fill:#FBFBFBCC;}
+.modal-sociale-list-icon:hover {
+  fill: #fbfbfbcc;
+}
 
-@media screen and (min-width: 768px){
-  .modal-window{ display: none;}
-  
+@media screen and (min-width: 768px) {
+  .modal-window {
+    display: none;
+  }
 }
