@@ -117,7 +117,7 @@
     flex-direction: row;
     align-items: center;
     column-gap: 32px;
-    flex-basis: calc((100%-32px) / 2);
+    flex-basis: calc((100% - 32px) / 2);
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -140,7 +140,7 @@
     flex-direction: row;
     align-items: center;
     column-gap: 26px;
-    flex-basis: calc((100%-52px) / 3);
+    flex-basis: calc((100% - 52px) / 3);
   }
   .reviews-list-item {
     padding: 32px 28px;
@@ -163,6 +163,6 @@
     flex-direction: row;
     align-items: center;
     column-gap: 32px;
-    flex-basis: calc((100%-64px) / 3);
+    flex-basis: calc((100% - 64px) / 3);
   }
 }
