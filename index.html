@@ -16,7 +16,7 @@
     />
     <link rel="icon" type="image/svg+xml" href="/tandem-of-developers/favicon.svg" />
     
-    <link rel="stylesheet" href="/tandem-of-developers/assets/index-b10dd5ff.css">
+    <link rel="stylesheet" href="/tandem-of-developers/assets/index-a03911d9.css">
   </head>
   <body>
     <header class="header">
@@ -319,8 +319,8 @@
   </div>
 </section>
 
-      <section class="advantages">
-  <div class="container section-indentation container-adventuges">
+      <section class="advantages section-indentation">
+  <div class="container container-adventuges">
     <div class="adventuges-description">
       <ul class="adventuges-list">
         <li class="adventuges-list-item">
@@ -355,25 +355,25 @@
       <picture>
         <source
           srcset="/tandem-of-developers/assets/1440-advantages-b04a1aff.webp 1x, /tandem-of-developers/assets/1440-advantages@2x-d7ef9f9b.webp 2x"
-          media="(min-width: 1440px)"        
+          media="(min-width: 1440px)"
         />
         <source
           srcset="/tandem-of-developers/assets/1280-advantages-a0f9507f.webp 1x, /tandem-of-developers/assets/1280-advantages@2x-c9153e26.webp 2x"
-          media="(min-width: 1280px)"        
+          media="(min-width: 1280px)"
         />
         <source
           srcset="/tandem-of-developers/assets/tablet-advantages-7a010dd2.webp 1x, /tandem-of-developers/assets/tablet-advantages@2x-beb4197f.webp 2x"
-          media="(min-width: 768px)"        
+          media="(min-width: 768px)"
         />
         <source
           srcset="/tandem-of-developers/assets/mobile-advantages-886558f6.webp 1x, /tandem-of-developers/assets/mobile-advantages@2x-77c2c5a6.webp 2x"
-          media="(max-width: 767px)"        
+          media="(max-width: 767px)"
         />
         <img
           class="adventuges-img"
           src="/tandem-of-developers/assets/mobile-advantages-886558f6.webp"
           alt="Yacht view"
-          loading="lazy"        
+          loading="lazy"
         />
       </picture>
     </div>
@@ -733,16 +733,24 @@
         modal: 'modal-window',
         closeButton: 'modal-menu-close-btn',
         toggleClass: 'is-open',
+        menuButtons: 'modal-menu-link',
       };
 
       const burgerMenu = document.querySelector(`.${cssClasses.burgerButton}`);
       const modal = document.querySelector(`.${cssClasses.modal}`);
       const closeButton = document.querySelector(`.${cssClasses.closeButton}`);
+      const menuButtons = document.querySelectorAll(
+        `.${cssClasses.menuButtons}`
+      );
 
-      const toggle = () => modal.classList.toggle(cssClasses.toggleClass);
+      const toggle = event => {
+        event.preventDefault();
+        modal.classList.toggle(cssClasses.toggleClass);
+      };
 
       burgerMenu.addEventListener('click', toggle);
       closeButton.addEventListener('click', toggle);
+      menuButtons.forEach(button => button.addEventListener('click', toggle));
     </script>
   </body>
 </html>
