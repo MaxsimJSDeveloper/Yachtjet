@@ -54,7 +54,7 @@
       rgba(17, 19, 31, 0.31) 84.12%,
       rgba(17, 19, 31, 0) 99.94%
     ),
-    url(/img/mobile/mobile-bg-img.jpg);
+    url(/img/mobile/mobile-bg-img.webp);
   background-repeat: no-repeat;
 }
 
@@ -68,7 +68,7 @@
         rgba(17, 19, 31, 0.31) 84.12%,
         rgba(17, 19, 31, 0) 99.94%
       ),
-      url(/img/mobile/mobile-bg-img@2x.jpg);
+      url(/img/mobile/mobile-bg-img@2x.webp);
     background-size: cover;
   }
 }
@@ -81,7 +81,7 @@
         rgba(17, 19, 31, 0.31) 84.12%,
         rgba(17, 19, 31, 0) 99.94%
       ),
-      url(/img/tablet/tablet-bg-img.jpg);
+      url(/img/tablet/tablet-bg-img.webp);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -93,7 +93,7 @@
           rgba(17, 19, 31, 0.31) 84.12%,
           rgba(17, 19, 31, 0) 99.94%
         ),
-        url(/img/tablet/tablet@2x.jpg);
+        url(/img/tablet/tablet@2x.webp);
     }
   }
 }
@@ -154,7 +154,7 @@
         rgba(17, 19, 31, 0.31) 84.12%,
         rgba(17, 19, 31, 0) 99.94%
       ),
-      url(/img/decktop-1280/1280-bg-img.jpg);
+      url(/img/decktop-1280/1280-bg-img.webp);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -166,7 +166,7 @@
           rgba(17, 19, 31, 0.31) 84.12%,
           rgba(17, 19, 31, 0) 99.94%
         ),
-        url(/img/decktop-1280/1280-bg-img@2x.jpg);
+        url(/img/decktop-1280/1280-bg-img@2x.webp);
     }
   }
 
@@ -185,7 +185,7 @@
         rgba(17, 19, 31, 0.31) 84.12%,
         rgba(17, 19, 31, 0) 99.94%
       ),
-      url(/img/decktop-1440/1440-bg-img.jpg);
+      url(/img/decktop-1440/1440-bg-img.webp);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -197,7 +197,7 @@
           rgba(17, 19, 31, 0.31) 84.12%,
           rgba(17, 19, 31, 0) 99.94%
         ),
-        url(/img/decktop-1440/1440-bg-img@2x.jpg);
+        url(/img/decktop-1440/1440-bg-img@2x.webp);
     }
   }
 }
