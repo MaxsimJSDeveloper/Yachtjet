@@ -7,6 +7,10 @@
     align-items: center;
 }
 
+a{
+    display: block;
+}
+
 .footer-container {
 
     justify-content: space-between;
@@ -72,7 +76,7 @@ letter-spacing: -0.03em;
     display: flex;
     gap: 8px; 
     justify-content: center;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
 }
 
 .navigation-footer{
@@ -82,8 +86,8 @@ letter-spacing: -0.03em;
 }
 
 
-.div-container-social{
-    
+.div-container-social {
+    margin-bottom: 40px;
 }
 
 
@@ -199,7 +203,7 @@ justify-content: center;
     }
     
     .menu-social-footer{
-        margin-right: 75px;
+        /*margin-right: 75px;*/
     }
     .footer-slogan-text{
         max-width: 693px;
