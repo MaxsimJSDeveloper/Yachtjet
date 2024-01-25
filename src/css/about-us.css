@@ -22,9 +22,7 @@
 }
 .about-us-title {
   color: #1b414b;
-  font-family: Inter;
   font-size: 28px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1;
   letter-spacing: -0.02em;
@@ -38,20 +36,14 @@
 
 .about-us-text {
   color: #1b414b;
-  font-family: Inter;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1;
   letter-spacing: -0.02em;
 }
 
 .about-us-sub-text {
   color: #040306;
-  font-family: Inter;
   font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.17;
   letter-spacing: -0.02em;
   opacity: 0.4;
@@ -150,14 +142,6 @@
 @media screen and (min-width: 1440px) {
   .about-us-text-wrap {
     width: 404px;
-  }
-
-  .about-us-wrap {
-    justify-content: center;
-    margin-top: -35px;
-    padding-top: 0;
-    padding-left: 50px;
-    padding-right: 50px;
   }
 
   .about-us-wrap-content {
