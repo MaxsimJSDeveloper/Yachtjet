@@ -3,9 +3,11 @@
   margin: 0 auto;
   max-width: 1180px;
 }
+
 .review-container {
   margin: 0 auto;
 }
+
 .review-title {
   color: #fbfbfb;
   text-align: center;
@@ -18,10 +20,8 @@
 }
 
 .review-text {
-  color: #fbfbfb;
   text-align: center;
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.28;
   letter-spacing: -0.02em;
   margin-left: auto;
@@ -29,34 +29,33 @@
   margin-bottom: 75px;
   opacity: 0.4;
 }
+
 .reviews-list-item {
   border-radius: 24px;
   background: #fbfbfb;
 }
+
 .reviewer-img {
   border-radius: 72px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 24px;
 }
+
 .reviewer-title {
   color: #040306;
   text-align: center;
-  font-family: Inter;
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.19;
   letter-spacing: -0.02em;
   margin-bottom: 8px;
 }
+
 .reviewer-text {
   color: rgba(4, 3, 6, 0.4);
   text-align: center;
-  font-family: Inter;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.4;
   letter-spacing: -0.02em;
   align-self: stretch;
@@ -68,23 +67,28 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .review-title {
     font-size: 28px;
     margin-left: auto;
     margin-right: auto;
     max-width: 335px;
   }
+
   .review-container {
     max-width: 335px;
   }
+
   .review-text {
     font-size: 12px;
     line-height: 1.17;
     margin-bottom: 40px;
   }
+
   .reviews-list-item {
     padding: 32px 8px;
   }
+
   .third-rev-item {
     display: none;
   }
@@ -100,18 +104,23 @@
     font-size: 48px;
     max-width: 704px;
   }
+
   .container-rev {
     max-width: 720px;
   }
+
   .review-text {
     max-width: 571px;
   }
+
   .reviews-list-item {
     padding: 32px 8px;
   }
+
   .third-rev-item {
     display: none;
   }
+
   .reviews-list {
     display: flex;
     flex-direction: row;
@@ -129,12 +138,15 @@
     max-width: 854px;
     font-size: 48px;
   }
+
   .container-rev {
     max-width: 1180px;
   }
+
   .review-text {
     max-width: 571px;
   }
+
   .reviews-list {
     display: flex;
     flex-direction: row;
@@ -142,6 +154,7 @@
     column-gap: 26px;
     flex-basis: calc((100% - 52px) / 3);
   }
+
   .reviews-list-item {
     padding: 32px 28px;
     border-radius: 24px;
@@ -153,11 +166,13 @@
   .review-container {
     max-width: 1340px;
   }
+
   .reviews-list-item {
     padding: 32px 36px;
     border-radius: 24px;
     background: #fbfbfb;
   }
+
   .reviews-list {
     display: flex;
     flex-direction: row;

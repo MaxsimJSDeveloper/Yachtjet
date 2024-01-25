@@ -4,26 +4,25 @@
   background-color: #040306;
   background-size: cover;
 }
+
 .hero-title {
   text-align: center;
-  font-family: Inter;
   font-size: 32px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1;
   letter-spacing: -0.02em;
   margin-bottom: 24px;
 }
+
 .hero-text {
   text-align: center;
   color: rgba(251, 251, 251, 0.7);
-  font-family: Inter;
   font-size: 12px;
-  font-style: normal;
   font-weight: 300;
   line-height: 1.16;
   margin-bottom: 38px;
 }
+
 .button-hero {
   display: flex;
   max-width: 141px;
@@ -110,6 +109,7 @@
     letter-spacing: -0.02em;
     max-width: 704px;
   }
+
   .hero-text {
     max-width: 597px;
     font-size: 16px;
@@ -117,6 +117,7 @@
     margin-right: auto;
     line-height: 1.4;
   }
+
   .button-hero {
     max-width: 179px;
     height: 52px;
@@ -124,8 +125,8 @@
     line-height: 1.1;
     letter-spacing: -0.02em;
   }
+
   .hero-container {
-    margin: 0 auto;
     max-width: 704px;
     padding-right: 32px;
     padding-left: 32px;
@@ -139,6 +140,7 @@
     flex-direction: column;
     align-items: center;
   }
+
   .button-hero {
     max-width: 179px;
     padding-right: 33px;
@@ -146,6 +148,7 @@
     padding-top: 16px;
     padding-bottom: 16px;
   }
+
   .hero {
     padding: 235px 0 215px;
     background-image: linear-gradient(
@@ -156,6 +159,7 @@
       ),
       url(/img/decktop-1280/1280-bg-img.webp);
   }
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -187,6 +191,7 @@
       ),
       url(/img/decktop-1440/1440-bg-img.webp);
   }
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
