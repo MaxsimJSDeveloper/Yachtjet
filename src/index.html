@@ -16,6 +16,7 @@
     />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./js/modal-window.js"></script>
   </head>
   <body>
     <load src="partials/header.html" />
@@ -29,31 +30,6 @@
     </main>
     <load src="partials/footer.html" />
     <load src="partials/modal-window.html" />
-
-    <script>
-      const cssClasses = {
-        burgerButton: 'burger-menu',
-        modal: 'modal-window',
-        closeButton: 'modal-menu-close-btn',
-        toggleClass: 'is-open',
-        menuButtons: 'modal-menu-link',
-      };
-
-      const burgerMenu = document.querySelector(`.${cssClasses.burgerButton}`);
-      const modal = document.querySelector(`.${cssClasses.modal}`);
-      const closeButton = document.querySelector(`.${cssClasses.closeButton}`);
-      const menuButtons = document.querySelectorAll(
-        `.${cssClasses.menuButtons}`
-      );
-
-      const toggle = event => {
-        event.preventDefault();
-        modal.classList.toggle(cssClasses.toggleClass);
-      };
-
-      burgerMenu.addEventListener('click', toggle);
-      closeButton.addEventListener('click', toggle);
-      menuButtons.forEach(button => button.addEventListener('click', toggle));
-    </script>
+       
   </body>
 </html>
