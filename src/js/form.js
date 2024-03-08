@@ -1,5 +1,3 @@
-console.log('hhhh');
-
 const form = document.querySelector('.rent-a-yacht-form');
 
 form.addEventListener('input', saveFormData);
