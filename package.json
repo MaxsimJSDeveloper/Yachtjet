@@ -1,18 +1,18 @@
 {
-  "name": "vanilla-app-template",
+  "name": "Yachtjet",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/tandem-of-developers/",
+    "build": "vite build --base=/Yachtjet/",
     "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^4.0.5",
     "glob": "^8.1.0"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Team: ✨Tandem of developers",
   "license": "ISC",
   "dependencies": {
     "vite-plugin-full-reload": "^1.0.5",
